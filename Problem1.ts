@@ -5,4 +5,3 @@ function sumArray(numbers: number[]): number {
   }
   return totalSum;
 }
-console.log(sumArray([1, 2, 3, 4, 5]));
