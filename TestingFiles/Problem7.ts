@@ -1,4 +1,4 @@
-class Car {
+class CarTest {
   make: string;
   model: string;
   year: number;

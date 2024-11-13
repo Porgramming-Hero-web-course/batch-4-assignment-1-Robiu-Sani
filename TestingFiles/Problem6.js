@@ -1,4 +1,4 @@
 "use strict";
-function updateProfile(profile, updates) {
+function updateProfileTest(profile, updates) {
     return Object.assign(Object.assign({}, profile), updates);
 }

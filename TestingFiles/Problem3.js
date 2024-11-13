@@ -1,5 +1,5 @@
 "use strict";
-function countWordOccurrences(sentence, word) {
+function countWordOccurrencesTest(sentence, word) {
     const sentenceLowercase = sentence.toLowerCase();
     const wordLowercase = word.toLowerCase();
     const words = sentenceLowercase.split(" ");

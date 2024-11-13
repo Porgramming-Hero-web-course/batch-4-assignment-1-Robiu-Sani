@@ -1,4 +1,4 @@
-function removeDuplicates(numbers: number[]): number[] {
+function removeDuplicatesTest(numbers: number[]): number[] {
   const uniqueNumbers: number[] = [];
 
   for (const number of numbers) {

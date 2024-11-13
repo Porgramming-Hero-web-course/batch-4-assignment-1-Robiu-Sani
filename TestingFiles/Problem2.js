@@ -1,5 +1,5 @@
 "use strict";
-function removeDuplicates(numbers) {
+function removeDuplicatesTest(numbers) {
     const uniqueNumbers = [];
     for (const number of numbers) {
         if (!uniqueNumbers.includes(number)) {

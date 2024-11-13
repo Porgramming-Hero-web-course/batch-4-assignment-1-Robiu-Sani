@@ -1,17 +1,17 @@
-type Circle = {
+type CircleTest = {
   shape: "circle";
   radius: number;
 };
 
-type Rectangle = {
+type RectangleTest = {
   shape: "rectangle";
   width: number;
   height: number;
 };
 
-type Shape = Circle | Rectangle;
+type ShapeTest = CircleTest | RectangleTest;
 
-function calculateShapeArea(shape: Shape): number {
+function calculateShapeAreaTest(shape: ShapeTest): number {
   if (shape.shape === "circle") {
     return Math.PI * shape.radius * shape.radius;
   } else if (shape.shape === "rectangle") {

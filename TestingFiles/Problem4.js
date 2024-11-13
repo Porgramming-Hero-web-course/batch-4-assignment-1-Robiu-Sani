@@ -1,5 +1,5 @@
 "use strict";
-function calculateShapeArea(shape) {
+function calculateShapeAreaTest(shape) {
     if (shape.shape === "circle") {
         return Math.PI * shape.radius * shape.radius;
     }

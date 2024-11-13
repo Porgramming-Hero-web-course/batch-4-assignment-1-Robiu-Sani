@@ -1,4 +1,4 @@
-function retrievePropertyValue<
+function retrievePropertyValueTest<
   ObjectType,
   PropertyKey extends keyof ObjectType
 >(

@@ -1,5 +1,5 @@
 "use strict";
-class Car {
+class CarTest {
     constructor(make, model, year) {
         this.make = make;
         this.model = model;
